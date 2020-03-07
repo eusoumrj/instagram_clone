@@ -1,6 +1,6 @@
 <main class="posts-page container">
   <section class="posts">
-    <% if posts.any? %>
+    <% if @posts.any? %>
       <%= render @posts %>
     <% else %>
       Nenhum post ainda.
@@ -16,6 +16,6 @@
   </aside>
 
   <footer>
-    --> <%= Date.current.year %> INSTAGRAM CLONE
+    © <%= Date.current.year %> INSTAGRAM CLONE
   </footer>
 </main>
