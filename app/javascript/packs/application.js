@@ -16,3 +16,5 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import "../src/application.css";
+
+import "./flashMessages.js"
