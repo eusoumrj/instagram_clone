@@ -29,6 +29,9 @@ module Instagram
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
+    config.time_zone = 'Brasilia'
+    config.i18n.default_locale = 'pt_BR'
+
     # Don't generate system test files.
     config.generators.system_tests = nil
   end
