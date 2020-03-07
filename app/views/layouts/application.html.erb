@@ -12,6 +12,28 @@
   </head>
 
   <body>
+    <<header>
+      <div class="container">
+        <nav>
+          <div class="logo-icon">
+            <%= link_to "icon", root_path %>
+          </div>
+
+          <div class="logo-text">
+            <%= link_to root_path %>
+              <%= image_tag "instagram.png" %>
+            <% end %>
+          </div>
+        </nav>
+
+        <nav class="actions">
+          <%= link_to "+", new_post_path %>
+          <%= link_to "user", "#" %>
+        </nav>
+      </div>
+    </header>
+
     <%= yield %>
+
   </body>
 </html>
